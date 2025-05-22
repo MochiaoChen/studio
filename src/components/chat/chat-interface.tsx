@@ -96,7 +96,7 @@ export default function ChatInterface() {
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-10rem)] md:h-[calc(100vh-12rem)] bg-card rounded-lg shadow-xl overflow-hidden">
+    <div className="flex flex-col h-[calc(100vh-8rem)] md:h-[calc(100vh-10rem)] bg-card rounded-lg shadow-xl overflow-hidden">
       <ScrollArea className="flex-1 p-4 md:p-6" ref={scrollAreaRef}>
         <div className="space-y-6">
           {messages.map((msg) => (
