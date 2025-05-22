@@ -56,16 +56,17 @@ export default function ChatInterface() {
     setIsLoading(true);
 
     try {
-      const conversationHistory = [...messages, newUserMessage]
-        .map((msg) => `${msg.sender}: ${msg.text}`)
+      const conversationHistoryForAI = [...messages, newUserMessage]
+        .map((msg) => `${msg.sender === 'user' ? 'User' : 'AI'}: ${msg.text}`)
         .join('\n');
       
-      const assessment = await emotionalAssessment({ conversation: conversationHistory });
+      const assessment = await emotionalAssessment({ conversation: conversationHistoryForAI });
       const { emotionalState } = assessment;
 
       const guidance = await providePersonalizedGuidance({
         userInput: newUserMessage.text,
         emotionalState: emotionalState || 'neutral', // Provide a default if undefined
+        conversationHistory: conversationHistoryForAI,
       });
 
       const aiResponse: ChatMessage = {
@@ -96,7 +97,7 @@ export default function ChatInterface() {
   };
 
   return (
-    <div className="flex flex-col h-[calc(100vh-8rem)] md:h-[calc(100vh-10rem)] bg-card rounded-lg shadow-xl overflow-hidden">
+    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-8rem)] bg-card rounded-lg shadow-xl overflow-hidden">
       <ScrollArea className="flex-1 p-4 md:p-6" ref={scrollAreaRef}>
         <div className="space-y-6">
           {messages.map((msg) => (
