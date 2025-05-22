@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BotMessageSquare, Sparkles, Users, Brain } from 'lucide-react';
+import { BotMessageSquare, Sparkles, Users, Brain, Briefcase } from 'lucide-react';
 import {
   Sidebar,
   SidebarContent,
@@ -14,8 +14,8 @@ import {
   SidebarMenuItem,
   SidebarProvider,
   SidebarTrigger,
-} from '@/components/ui/sidebar'; // Assuming sidebar is in ui
-import { Button } from '@/components/ui/button'; // For potential mobile trigger or other elements
+} from '@/components/ui/sidebar'; 
+import { Button } from '@/components/ui/button'; 
 import { cn } from '@/lib/utils';
 
 interface AppLayoutProps {
@@ -28,6 +28,7 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
 
   const navItems = [
     { href: '/', label: 'Chat', icon: BotMessageSquare },
+    { href: '/career', label: 'Career & Academics', icon: Briefcase },
     { href: '/resources', label: 'Resources', icon: Sparkles },
     { href: '/connect', label: 'Connect', icon: Users },
   ];
@@ -46,7 +47,7 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
               "text-xl font-semibold text-primary transition-opacity duration-300 ease-in-out",
               "group-data-[state=collapsed]:opacity-0 group-data-[state=collapsed]:w-0 group-data-[state=expanded]:opacity-100"
               )}>
-              MindBloom
+              MindBridge
             </h1>
           </SidebarHeader>
           <SidebarContent className="p-2">

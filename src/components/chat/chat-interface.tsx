@@ -26,7 +26,7 @@ export default function ChatInterface() {
       {
         id: crypto.randomUUID(),
         sender: 'ai',
-        text: "Hello! I'm MindBloom, your AI companion for mental wellness. How are you feeling today?",
+        text: "Hello! I'm MindBridge, your AI companion for mental wellness and academic support. How are you feeling today?",
         timestamp: new Date(),
       },
     ]);

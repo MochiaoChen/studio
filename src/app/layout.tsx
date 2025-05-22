@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'MindBloom',
-  description: 'AI-Powered Mental Health Assistant for University Students',
+  title: 'MindBridge',
+  description: 'AI-Powered Mental Health and Career Assistant for University Students',
 };
 
 export default function RootLayout({
