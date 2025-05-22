@@ -14,23 +14,29 @@ import type { ChatMessage } from '@/types';
 import { useToast } from '@/hooks/use-toast';
 import { Skeleton } from '@/components/ui/skeleton';
 
-export default function ChatInterface() {
+interface ChatInterfaceProps {
+  initialAiMessageOverride?: string;
+}
+
+export default function ChatInterface({ initialAiMessageOverride }: ChatInterfaceProps) {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [userInput, setUserInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
   const scrollAreaRef = useRef<HTMLDivElement>(null);
 
+  const defaultInitialMessage = "Hello! I'm MindBridge, your AI companion for mental wellness and academic support. How are you feeling today?";
+
   useEffect(() => {
     setMessages([
       {
         id: crypto.randomUUID(),
         sender: 'ai',
-        text: "Hello! I'm MindBridge, your AI companion for mental wellness and academic support. How are you feeling today?",
+        text: initialAiMessageOverride || defaultInitialMessage,
         timestamp: new Date(),
       },
     ]);
-  }, []);
+  }, [initialAiMessageOverride]);
 
   useEffect(() => {
     if (scrollAreaRef.current) {
