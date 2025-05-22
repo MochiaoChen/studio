@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BotMessageSquare, Sparkles, Users, Brain, Briefcase } from 'lucide-react';
+import { BotMessageSquare, Sparkles, Users, Brain, Briefcase, Settings } from 'lucide-react'; // Added Settings
 import {
   Sidebar,
   SidebarContent,
@@ -14,8 +14,8 @@ import {
   SidebarMenuItem,
   SidebarProvider,
   SidebarTrigger,
-} from '@/components/ui/sidebar'; 
-import { Button } from '@/components/ui/button'; 
+} from '@/components/ui/sidebar';
+import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
 interface AppLayoutProps {
@@ -31,6 +31,7 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
     { href: '/career', label: 'Career & Academics', icon: Briefcase },
     { href: '/resources', label: 'Resources', icon: Sparkles },
     { href: '/connect', label: 'Connect', icon: Users },
+    { href: '/settings', label: 'Settings', icon: Settings }, // Added Settings page
   ];
 
   return (
@@ -56,7 +57,7 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
                 <SidebarMenuItem key={item.href}>
                   <SidebarMenuButton
                     asChild
-                    isActive={pathname === item.href}
+                    isActive={pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href))}
                     className="justify-start"
                     tooltip={{children: item.label, className: "bg-card text-card-foreground border-border shadow-md"}}
                   >
