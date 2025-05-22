@@ -1,3 +1,4 @@
+
 import AppLayout from '@/components/layout/app-layout';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -12,7 +13,7 @@ const professionalResources = [
     contactType: 'University Service',
     icon: Building,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'university campus',
+    aiHint: 'campus sketch',
     links: [
       { label: 'Find Your Campus Service (Example)', href: '#', type: Globe },
     ],
@@ -23,7 +24,7 @@ const professionalResources = [
     contactType: 'Hotline',
     icon: Phone,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'hope light',
+    aiHint: 'hope sketch',
     links: [
       { label: 'Call 988', href: 'tel:988', type: Phone },
       { label: 'Visit Website', href: 'https://988lifeline.org/', type: Globe },
@@ -35,7 +36,7 @@ const professionalResources = [
     contactType: 'Text Support',
     icon: LifeBuoy,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'support hands',
+    aiHint: 'support sketch',
     links: [
       { label: 'Text HOME to 741741', href: 'sms:741741?body=HOME', type: Phone },
       { label: 'Visit Website', href: 'https://www.crisistextline.org/', type: Globe },
@@ -47,7 +48,7 @@ const professionalResources = [
     contactType: 'LGBTQ+ Support',
     icon: Users,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'diversity inclusion',
+    aiHint: 'diversity sketch',
     links: [
       { label: 'Call 1-866-488-7386', href: 'tel:18664887386', type: Phone },
       { label: 'Visit Website', href: 'https://www.thetrevorproject.org/', type: Globe },

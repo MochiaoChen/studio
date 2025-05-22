@@ -10,21 +10,21 @@ const careerExplorationStrategies = [
     description: 'Utilize self-assessment tools, reflect on your passions, and understand what motivates you to find fulfilling career options.',
     icon: Award,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'skills assessment',
+    aiHint: 'skills sketch',
   },
   {
     title: 'Explore Diverse Career Paths',
     description: 'Research various industries and job roles. Conduct informational interviews to gain insights from professionals in fields that interest you.',
     icon: Compass,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'career path',
+    aiHint: 'career sketch',
   },
   {
     title: 'Build Your Professional Network',
     description: 'Connect with peers, alumni, and professionals. Leverage platforms like LinkedIn and attend university career events.',
     icon: LinkIcon,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'professional networking',
+    aiHint: 'networking sketch',
   },
 ];
 
@@ -34,21 +34,21 @@ const academicStressStrategies = [
     description: 'Implement time management techniques, practice active learning, and create a consistent study schedule to enhance comprehension and retention.',
     icon: BookOpen,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'study habits',
+    aiHint: 'study sketch',
   },
   {
     title: 'Manage Exam Anxiety',
     description: 'Learn relaxation techniques, employ effective preparation strategies, and cultivate a positive mindset to approach exams with confidence.',
     icon: ShieldAlert,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'exam preparation',
+    aiHint: 'exam sketch',
   },
   {
     title: 'Seek Academic Support',
     description: 'Utilize university resources such as tutoring services, academic advisors, and writing centers to overcome academic challenges.',
     icon: HelpCircle,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'academic support',
+    aiHint: 'academic sketch',
   },
 ];
 

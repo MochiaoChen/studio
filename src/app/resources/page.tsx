@@ -1,3 +1,4 @@
+
 import AppLayout from '@/components/layout/app-layout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Zap, Brain, Wind, Smile, Users, Activity } from 'lucide-react';
@@ -9,21 +10,21 @@ const copingStrategies = [
     description: 'Practice deep, mindful breaths to calm your nervous system and reduce stress.',
     icon: Wind,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'meditation nature',
+    aiHint: 'meditation sketch',
   },
   {
     title: 'Positive Self-Talk',
     description: 'Challenge negative thoughts and replace them with positive affirmations.',
     icon: Smile,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'positive thinking',
+    aiHint: 'positive sketch',
   },
   {
     title: 'Connect with Others',
     description: 'Reach out to friends, family, or support groups when you need to talk.',
     icon: Users,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'friends support',
+    aiHint: 'friends sketch',
   },
 ];
 
@@ -33,21 +34,21 @@ const wellnessExercises = [
     description: 'Write down your thoughts and feelings to gain perspective and process emotions.',
     icon: Brain,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'writing journal',
+    aiHint: 'writing sketch',
   },
   {
     title: 'Physical Activity',
     description: 'Engage in regular exercise to boost mood and reduce anxiety. Even a short walk helps!',
     icon: Activity,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'running park',
+    aiHint: 'running sketch',
   },
   {
     title: 'Gratitude Practice',
     description: 'Take time each day to acknowledge things you are grateful for to foster positivity.',
     icon: Zap,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'gratitude sunset',
+    aiHint: 'gratitude sketch',
   },
 ];
 
