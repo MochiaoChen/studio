@@ -1,7 +1,7 @@
 import AppLayout from '@/components/layout/app-layout';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Phone, Globe, Building, LifeBuoy } from 'lucide-react';
+import { Phone, Globe, Building, LifeBuoy, Users } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
