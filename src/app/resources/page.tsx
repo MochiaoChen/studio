@@ -47,7 +47,7 @@ const wellnessExercises = [
     title: 'Gratitude Practice',
     description: 'Take time each day to acknowledge things you are grateful for to foster positivity.',
     icon: Zap,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1586751423846-9c3cdd03f6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcmF5fGVufDB8fHx8MTc0ODE2MDUyM3ww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'gratitude sketch',
   },
 ];
