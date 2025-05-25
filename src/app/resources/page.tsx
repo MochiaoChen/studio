@@ -16,7 +16,7 @@ const copingStrategies = [
     title: 'Positive Self-Talk',
     description: 'Challenge negative thoughts and replace them with positive affirmations.',
     icon: Smile,
-    image: 'https://images.unsplash.com/photo-1556760544-4f7990729c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3NpdGl2ZSUyMGFmZmlybWF0aW9uJTIwc2tldGNofGVufDB8fHx8MTc1MjM3NDExMXww&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1612469293396-8e99860f3fac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMnx8c2VsZi10YWxrfGVufDB8fHx8MTc0ODE2MTQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'positive sketch',
   },
   {
