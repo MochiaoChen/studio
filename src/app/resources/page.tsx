@@ -23,7 +23,7 @@ const copingStrategies = [
     title: 'Connect with Others',
     description: 'Reach out to friends, family, or support groups when you need to talk.',
     icon: Users,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1604881990409-b9f246db39da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8Y2hhdHxlbnwwfHx8fDE3NDgxNjA0NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'friends sketch',
   },
 ];
