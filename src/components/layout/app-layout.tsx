@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BotMessageSquare, Sparkles, Users, Brain, Briefcase, Settings, BookOpen } from 'lucide-react'; // Added BookOpen
+import { BotMessageSquare, Sparkles, Users, Landmark, Briefcase, Settings, BookOpen } from 'lucide-react'; // Changed Brain to Landmark
 import {
   Sidebar,
   SidebarContent,
@@ -42,7 +42,7 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
           <SidebarHeader className="p-4 flex items-center gap-2">
             <Button variant="ghost" size="icon" className="rounded-lg bg-primary/10 text-primary hover:bg-primary/20" asChild>
               <Link href="/">
-                <Brain className="h-6 w-6" />
+                <Landmark className="h-6 w-6" /> {/* Changed Brain to Landmark */}
               </Link>
             </Button>
             <h1 className={cn(
@@ -80,7 +80,7 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
         <SidebarInset className="flex flex-col flex-1">
           <header className="sticky top-0 z-30 flex h-16 items-center justify-between gap-4 border-b bg-background/80 px-4 py-2 shadow-sm backdrop-blur-sm sm:px-6 md:justify-start">
             <SidebarTrigger className="md:hidden flex items-center" aria-label="Toggle sidebar">
-               <Brain className="h-6 w-6 text-primary" />
+               <Landmark className="h-6 w-6 text-primary" /> {/* Changed Brain to Landmark */}
             </SidebarTrigger>
             <h1 className="text-xl font-semibold text-foreground">{pageTitle}</h1>
           </header>
