@@ -35,7 +35,7 @@ const professionalResources = [
     description: 'Connect with a crisis counselor for free, 24/7 support via text message.',
     contactType: 'Text Support',
     icon: LifeBuoy,
-    image: 'https://images.unsplash.com/photo-1585079336713-3758500f35c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBzdXBwb3J0JTIwY29tbXVuaXR5fGVufDB8fHx8MTc1MjM3NDAwM3ww&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1628009702672-5958b1de3fc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxOHx8aXBob25lJTIwdGV4dHxlbnwwfHx8fDE3NDgxNjIyOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'support sketch',
     links: [
       { label: 'Text HOME to 741741', href: 'sms:741741?body=HOME', type: Phone },
