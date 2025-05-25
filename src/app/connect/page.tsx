@@ -47,7 +47,7 @@ const professionalResources = [
     description: 'Provides crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender, queer & questioning (LGBTQ) young people.',
     contactType: 'LGBTQ+ Support',
     icon: Users,
-    image: 'https://images.unsplash.com/photo-1593085260700-790245d3991a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaXZlcnNpdHklMjByYWluYm93JTIwc2tldGNofGVufDB8fHx8MTc1MjM3NDAwNHww&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1581188256975-819d77b0166d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxMR0JUUSUyMHN1cHBvcnR8ZW58MHx8fHwxNzQ4MTYyMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'diversity sketch',
     links: [
       { label: 'Call 1-866-488-7386', href: 'tel:18664887386', type: Phone },
