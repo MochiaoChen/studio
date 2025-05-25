@@ -31,7 +31,7 @@ export const careerExplorationStrategies = [
     title: 'Build Your Professional Network',
     description: 'Connect with peers, alumni, and professionals. Leverage platforms like LinkedIn and attend university career events.',
     icon: LinkIconLucide,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1559523182-a284c3fb7cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8YnVpbGQlMjBwcm9mZXNzaW9uYWwlMjBuZXR3b3Jrc3xlbnwwfHx8fDE3NDgxNjAwNzF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'networking sketch',
     chatPageTitle: 'Chat: Build Your Network',
     initialChatMessage: "Hello! Let's talk about building your professional network. What are your current thoughts, experiences, or challenges with networking? We can discuss strategies for making connections.",
