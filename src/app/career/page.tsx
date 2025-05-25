@@ -11,7 +11,7 @@ export const careerExplorationStrategies = [
     title: 'Identify Your Strengths & Interests',
     description: 'Utilize self-assessment tools, reflect on your passions, and understand what motivates you to find fulfilling career options.',
     icon: Award,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1580291282225-185cb07600ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxTdHJlbmd0aCUyMEludGVyZXN0fGVufDB8fHx8MTc0ODM4ODMzNnww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'skills sketch',
     chatPageTitle: 'Chat: Identify Strengths & Interests',
     initialChatMessage: "Welcome! Let's explore your strengths and interests. What activities do you enjoy or feel you're good at? Or, tell me a bit about what you're studying and what aspects you find most engaging.",
