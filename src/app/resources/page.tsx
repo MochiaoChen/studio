@@ -40,7 +40,7 @@ const wellnessExercises = [
     title: 'Physical Activity',
     description: 'Engage in regular exercise to boost mood and reduce anxiety. Even a short walk helps!',
     icon: Activity,
-    image: 'https://images.unsplash.com/photo-1485727749691-608540938c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydW5uaW5nJTIwZXhlcmNpc2UlMjBza2V0Y2h8ZW58MHx8fHwxNzUyMzc0MTEzfDA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydW5uaW5nfGVufDB8fHx8MTc0ODE2MDUwNHww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'running sketch',
   },
   {
@@ -99,3 +99,4 @@ export default function ResourcesPage() {
     </AppLayout>
   );
 }
+
