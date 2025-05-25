@@ -16,7 +16,7 @@ const academicSupportStrategies = [
     title: 'Manage Exam Anxiety',
     description: 'Learn relaxation techniques, employ effective preparation strategies, and cultivate a positive mindset to approach exams with confidence.',
     icon: ShieldAlert,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1613312328068-c9b6b76c9e8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxFeGFtJTIwYW54aWV0eXxlbnwwfHx8fDE3NDgxNjAyNjF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'exam sketch',
   },
   {
