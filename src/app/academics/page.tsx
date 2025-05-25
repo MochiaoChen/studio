@@ -23,8 +23,8 @@ const academicSupportStrategies = [
     title: 'Seek Academic Support',
     description: 'Utilize university resources such as tutoring services, academic advisors, and writing centers to overcome academic challenges.',
     icon: HelpCircle,
-    image: 'https://placehold.co/600x400.png',
-    aiHint: 'academic support',
+    image: 'https://images.unsplash.com/photo-1531496681078-27dc2277e898?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWNlZGVtaWMlMjBkaXNjdXNzaW9ufGVufDB8fHx8MTc0ODE2MDMwNXww&ixlib=rb-4.1.0&q=80&w=1080',
+    aiHint: 'academic sketch',
   },
 ];
 
