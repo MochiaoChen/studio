@@ -24,7 +24,7 @@ const professionalResources = [
     contactType: 'Hotline',
     icon: Phone,
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'hope sketch',
+    aiHint: 'alive sketch',
     links: [
       { label: 'Call 988', href: 'tel:988', type: Phone },
       { label: 'Visit Website', href: 'https://988lifeline.org/', type: Globe },
