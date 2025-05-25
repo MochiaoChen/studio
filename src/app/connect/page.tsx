@@ -12,7 +12,7 @@ const professionalResources = [
     description: 'Confidential counseling and mental health support for students. Many universities offer free or low-cost services.',
     contactType: 'University Service',
     icon: Building,
-    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1wdXMlMjBidWlsZGluZyUyMHNrZXRjaHxlbnwwfHx8fDE3NTIzNzQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1547916105-d82fa40e5c73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2hvb2wlMjBnYXRlfGVufDB8fHx8MTc0ODE2MTczMXww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'campus sketch',
     links: [
       { label: 'Find Your Campus Service (Example)', href: '#', type: Globe },
