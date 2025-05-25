@@ -9,7 +9,7 @@ const copingStrategies = [
     title: 'Mindful Breathing',
     description: 'Practice deep, mindful breaths to calm your nervous system and reduce stress.',
     icon: Wind,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1518708909080-704599b19972?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmVhdGhpbmd8ZW58MHx8fHwxNzQ4MTYwNDA5fDA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'meditation sketch',
   },
   {
