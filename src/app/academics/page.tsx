@@ -9,7 +9,7 @@ const academicSupportStrategies = [
     title: 'Develop Effective Study Habits',
     description: 'Implement time management techniques, practice active learning, and create a consistent study schedule to enhance comprehension and retention.',
     icon: BookOpen,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxM3x8U3R1ZHklMjB8ZW58MHx8fHwxNzQ4MTYwMjQzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'study sketch',
   },
   {
