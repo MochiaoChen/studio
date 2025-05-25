@@ -21,7 +21,7 @@ export const careerExplorationStrategies = [
     title: 'Explore Diverse Career Paths',
     description: 'Research various industries and job roles. Conduct informational interviews to gain insights from professionals in fields that interest you.',
     icon: Compass,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1476231790875-016a80c274f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxDYXJlZXIlMjBQYXRofGVufDB8fHx8MTc0ODE1OTczNHww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'career sketch',
     chatPageTitle: 'Chat: Explore Career Paths',
     initialChatMessage: "Hi there! Ready to explore some career paths? Do you have any industries or roles in mind, or are you looking for general ideas on how to start your research?",
