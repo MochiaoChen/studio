@@ -16,7 +16,7 @@ const copingStrategies = [
     title: 'Positive Self-Talk',
     description: 'Challenge negative thoughts and replace them with positive affirmations.',
     icon: Smile,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1556760544-4f7990729c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3NpdGl2ZSUyMGFmZmlybWF0aW9uJTIwc2tldGNofGVufDB8fHx8MTc1MjM3NDExMXww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'positive sketch',
   },
   {
@@ -33,14 +33,14 @@ const wellnessExercises = [
     title: 'Journaling for Clarity',
     description: 'Write down your thoughts and feelings to gain perspective and process emotions.',
     icon: Brain,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqb3VybmFsaW5nJTIwd3JpdGluZyUyMHNrZXRjaHxlbnwwfHx8fDE3NTIzNzQxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'writing sketch',
   },
   {
     title: 'Physical Activity',
     description: 'Engage in regular exercise to boost mood and reduce anxiety. Even a short walk helps!',
     icon: Activity,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1485727749691-608540938c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxydW5uaW5nJTIwZXhlcmNpc2UlMjBza2V0Y2h8ZW58MHx8fHwxNzUyMzc0MTEzfDA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'running sketch',
   },
   {

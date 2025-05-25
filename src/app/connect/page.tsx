@@ -12,7 +12,7 @@ const professionalResources = [
     description: 'Confidential counseling and mental health support for students. Many universities offer free or low-cost services.',
     contactType: 'University Service',
     icon: Building,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYW1wdXMlMjBidWlsZGluZyUyMHNrZXRjaHxlbnwwfHx8fDE3NTIzNzQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'campus sketch',
     links: [
       { label: 'Find Your Campus Service (Example)', href: '#', type: Globe },
@@ -23,7 +23,7 @@ const professionalResources = [
     description: 'Free and confidential support for people in distress, prevention and crisis resources for you or your loved ones.',
     contactType: 'Hotline',
     icon: Phone,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1618012418008-35093570805c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnNwaXJhdGlvbmFsJTIwbGlnaHRob3VzZXxlbnwwfHx8fDE3NTIzNzQwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'alive sketch',
     links: [
       { label: 'Call 988', href: 'tel:988', type: Phone },
@@ -35,7 +35,7 @@ const professionalResources = [
     description: 'Connect with a crisis counselor for free, 24/7 support via text message.',
     contactType: 'Text Support',
     icon: LifeBuoy,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1585079336713-3758500f35c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBzdXBwb3J0JTIwY29tbXVuaXR5fGVufDB8fHx8MTc1MjM3NDAwM3ww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'support sketch',
     links: [
       { label: 'Text HOME to 741741', href: 'sms:741741?body=HOME', type: Phone },
@@ -47,7 +47,7 @@ const professionalResources = [
     description: 'Provides crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender, queer & questioning (LGBTQ) young people.',
     contactType: 'LGBTQ+ Support',
     icon: Users,
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1593085260700-790245d3991a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkaXZlcnNpdHklMjByYWluYm93JTIwc2tldGNofGVufDB8fHx8MTc1MjM3NDAwNHww&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'diversity sketch',
     links: [
       { label: 'Call 1-866-488-7386', href: 'tel:18664887386', type: Phone },
