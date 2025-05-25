@@ -23,7 +23,7 @@ const professionalResources = [
     description: 'Free and confidential support for people in distress, prevention and crisis resources for you or your loved ones.',
     contactType: 'Hotline',
     icon: Phone,
-    image: 'https://images.unsplash.com/photo-1618012418008-35093570805c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnNwaXJhdGlvbmFsJTIwbGlnaHRob3VzZXxlbnwwfHx8fDE3NTIzNzQwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1080',
+    image: 'https://images.unsplash.com/photo-1708452433761-c66df0d2d970?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdWljaWRlJTIwbGlmZWxpbmV8ZW58MHx8fHwxNzQ4MTYxODY4fDA&ixlib=rb-4.1.0&q=80&w=1080',
     aiHint: 'alive sketch',
     links: [
       { label: 'Call 988', href: 'tel:988', type: Phone },
