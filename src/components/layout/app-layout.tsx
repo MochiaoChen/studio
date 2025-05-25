@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BotMessageSquare, Sparkles, Users, Brain, Briefcase, Settings } from 'lucide-react'; // Added Settings
+import { BotMessageSquare, Sparkles, Users, Brain, Briefcase, Settings, BookOpen } from 'lucide-react'; // Added BookOpen
 import {
   Sidebar,
   SidebarContent,
@@ -28,10 +28,11 @@ export default function AppLayout({ children, pageTitle }: AppLayoutProps) {
 
   const navItems = [
     { href: '/', label: 'Chat', icon: BotMessageSquare },
-    { href: '/career', label: 'Career & Academics', icon: Briefcase },
+    { href: '/career', label: 'Career', icon: Briefcase },
+    { href: '/academics', label: 'Academics', icon: BookOpen },
     { href: '/resources', label: 'Resources', icon: Sparkles },
     { href: '/connect', label: 'Connect', icon: Users },
-    { href: '/settings', label: 'Settings', icon: Settings }, // Added Settings page
+    { href: '/settings', label: 'Settings', icon: Settings },
   ];
 
   return (

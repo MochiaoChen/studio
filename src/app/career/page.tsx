@@ -1,9 +1,9 @@
 
 import AppLayout from '@/components/layout/app-layout';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Award, Compass, Link as LinkIconLucide, BookOpen, ShieldAlert, HelpCircle } from 'lucide-react'; // Renamed Link to LinkIconLucide to avoid conflict
+import { Award, Compass, Link as LinkIconLucide } from 'lucide-react'; // Removed BookOpen, ShieldAlert, HelpCircle
 import Image from 'next/image';
-import Link from 'next/link'; // Imported Next.js Link
+import Link from 'next/link';
 
 export const careerExplorationStrategies = [
   {
@@ -38,36 +38,12 @@ export const careerExplorationStrategies = [
   },
 ];
 
-const academicStressStrategies = [
-  {
-    title: 'Develop Effective Study Habits',
-    description: 'Implement time management techniques, practice active learning, and create a consistent study schedule to enhance comprehension and retention.',
-    icon: BookOpen,
-    image: 'https://placehold.co/600x400.png',
-    aiHint: 'study sketch',
-  },
-  {
-    title: 'Manage Exam Anxiety',
-    description: 'Learn relaxation techniques, employ effective preparation strategies, and cultivate a positive mindset to approach exams with confidence.',
-    icon: ShieldAlert,
-    image: 'https://placehold.co/600x400.png',
-    aiHint: 'exam sketch',
-  },
-  {
-    title: 'Seek Academic Support',
-    description: 'Utilize university resources such as tutoring services, academic advisors, and writing centers to overcome academic challenges.',
-    icon: HelpCircle,
-    image: 'https://placehold.co/600x400.png',
-    aiHint: 'academic sketch',
-  },
-];
-
 export default function CareerPage() {
   return (
-    <AppLayout pageTitle="Career & Academic Support">
+    <AppLayout pageTitle="Career Exploration">
       <div className="space-y-8">
         <section>
-          <h2 className="text-2xl font-semibold text-foreground mb-4">Career Exploration</h2>
+          <h2 className="text-2xl font-semibold text-foreground mb-4">Career Exploration Strategies</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {careerExplorationStrategies.map((strategy) => (
               <Link key={strategy.slug} href={`/career/chat/${strategy.slug}`} className="block h-full">
@@ -84,26 +60,6 @@ export default function CareerPage() {
                   </CardContent>
                 </Card>
               </Link>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold text-foreground mb-4">Managing Academic Stress</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {academicStressStrategies.map((strategy) => (
-              <Card key={strategy.title} className="shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full">
-                <CardHeader className="flex-row items-center gap-4 pb-2">
-                  <strategy.icon className="w-8 h-8 text-accent" />
-                  <CardTitle className="text-xl">{strategy.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="flex-grow flex flex-col">
-                   <div className="relative w-full h-40 rounded-md overflow-hidden my-2">
-                    <Image src={strategy.image} alt={strategy.title} layout="fill" objectFit="cover" data-ai-hint={strategy.aiHint} />
-                  </div>
-                  <CardDescription className="mt-2 flex-grow">{strategy.description}</CardDescription>
-                </CardContent>
-              </Card>
             ))}
           </div>
         </section>
